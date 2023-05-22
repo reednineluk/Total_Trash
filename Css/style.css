@@ -1,0 +1,276 @@
+
+
+
+/* GLOBAL */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyglobal{
+
+   background-color: black;
+
+   justify-content: center;
+
+   align-items: center;
+   
+}
+
+@media screen and (max-width: 800px) {
+  main{
+    width: 100%;
+
+  }
+  
+}
+
+.container{
+
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav♥{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    }
+
+    main{
+
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+
+    .h1global{
+ 
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        color: black;
+
+        background-color: pink;
+
+    }
+
+    .h2global{
+
+
+      display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        color: black;
+
+        background-color: pink;
+      
+
+
+
+    }
+
+    .pglobal{
+
+      font-size: 20px;
+
+      color: whitesmoke;
+
+      font-weight: 500;
+
+    }
+
+    .iframesyt{
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+     
+         margin-left: 80px;
+         
+       }
+
+       .responsive-iframe {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.responsive-iframe iframe {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframecontainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .iframecontainer {
+    padding-bottom: 75%;
+  }
+  
+}
+
+       /* GLOBAL */
+
+       /* MERCH */
+
+       .sectionmerch{
+
+        display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+        flex-wrap: wrap;
+         
+        padding: 30px;
+    
+        margin: 20px;
+    
+        gap: 30px;
+
+        flex-direction: column;
+    
+    }
+
+    .cardsingle{
+      display: flex;
+      border-collapse: collapse;
+      margin: 0 20px 20px 0;
+      width: 50%;
+      float: right;
+      background-color: black;
+      color: whitesmoke;
+      position: relative;
+      bottom: 400px;
+    }
+
+
+
+
+
+
+
+    /* GALERIA */
+
+.grid-container{
+  display: grid;
+grid-template-columns: repeat(auto-fill, minmax (250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+
+
+}
+
+.grid-item{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: pink;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+
+  font-family: 'Courier New';
+  font-size: large;
+
+  border: solid 1px whitesmoke;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.grid-item:hover {
+
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.wide{
+
+  grid-column: span 2;
+}
+
+.tall{
+
+  grid-row: span 2;
+}
+  /* RESPONSIVE GALERIA */
+@media (min-width: 600px) {
+  .wide {
+    grid-column: span 2;
+  }
+
+  .tall {
+    grid-row: span 2;
+  }
+}
+
+/* CONTACTO */
+
+.footercontacto{
+ 
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+   
+  padding: 30px;
+
+  margin: 20px;
+
+  gap: 30px;
+
+}
+
+.collagecontacto{
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+align-items: center;
+  
+}
+
+.collagecontacto img{
+    
+  width: 300px;
+height: 300px;
+object-fit: cover;
+justify-content: center;
+align-items: center;
+}
+  
+  
+
+

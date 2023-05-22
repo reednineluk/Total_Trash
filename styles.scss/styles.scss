@@ -1,0 +1,17 @@
+
+$colorbg: red;
+
+.bodyglobal{
+
+    background-color: rgb(255, 0, 0);
+ 
+    justify-content: center;
+ 
+    align-items: center;
+    
+ }
+
+ h1{
+
+    color: $colorbg;
+ }
