@@ -1,0 +1,16 @@
+.image-container {
+    display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+ align-items: center;
+  }
+
+  .image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }

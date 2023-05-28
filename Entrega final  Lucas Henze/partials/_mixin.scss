@@ -1,0 +1,57 @@
+@mixin center-flex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin end-flex ($justify, $align){
+
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+
+@mixin font-style{
+
+    font-size: medium;
+    font-style: normal;
+    min-width: auto;
+    color: whitesmoke;
+}
+
+@mixin card-single{
+
+      display: flex;
+      width: 30%;
+      float: right;
+      background-color: black;
+      color: whitesmoke;
+      position: relative;
+      bottom: 270px;
+
+
+
+}
+
+@mixin card-styles{
+
+    display: flex;
+    
+        justify-content: center;
+    
+        align-items: center;
+    
+        flex-wrap: wrap;
+         
+        padding: 30px;
+    
+        margin: 20px;
+    
+        gap: 30px;
+
+        flex-direction: column;
+    
+    }

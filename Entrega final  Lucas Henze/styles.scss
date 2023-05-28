@@ -1,0 +1,89 @@
+
+
+
+@import "partials/variables";
+@import "partials/mixin";
+@import "partials/_mediaqueries";
+@import "partials/galeria";
+@import "partials/contactoimp";
+
+
+body{
+
+    background-color: $color-principal !important ;
+
+}
+
+header{
+
+    background-color: pink;
+}
+
+
+
+
+footer{
+
+    @include center-flex;
+}
+
+h1{
+    @include center-flex;
+   
+    background-color: $color-secundario;
+    
+    
+
+}
+
+h2{
+    @include center-flex;
+
+    background-color: $color-secundario;
+}
+
+p{
+
+    @include font-style;
+    @include center-flex;
+}
+
+iframe{
+    width: 700px;
+
+   @include center-flex;
+    
+}
+
+.iframesound{
+  @extend .ytiframe;
+
+  @include center-flex;
+  
+}
+
+.ytiframe{
+
+    @include center-flex;
+     
+         margin-left: 80px;
+}
+
+//CARDS//
+
+.cards{
+
+    @include center-flex;
+
+    padding: 30px;
+}
+
+.cardsingle{
+     
+    @include card-single;
+
+}
+
+
+
+

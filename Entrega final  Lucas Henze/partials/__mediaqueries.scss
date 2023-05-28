@@ -1,0 +1,157 @@
+//MEDIA QUERIES NAV
+
+@media (max-width: 767px) {
+
+  .navbar-brand img {
+      max-width: 150px;
+  }
+  .navbar-collapse {
+      justify-content: center;
+  }
+  .navbar-nav {
+      margin-top: 15px;
+      text-align: center;
+  }
+  .navbar-nav .nav-item {
+      margin-bottom: 10px;
+  }
+}
+
+//CAROUSEL
+
+@media (max-width: 767px) {
+ 
+  .carousel-item img {
+      max-height: 200px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+      display: none;
+  }
+}
+
+//IFRAMES
+
+@media (max-width: 767px) {
+ 
+  h1 {
+      font-size: 24px;
+      text-align: center;
+  }
+  .ytiframe iframe,
+  .ytiframe hr {
+      width: 100%;
+      height: auto;
+  }
+  h2 {
+      font-size: 24px;
+      text-align: center;
+  }
+  footer div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  footer iframe {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+}
+
+//GALERIA
+
+@media (max-width: 767px) {
+
+  .gallery {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .item {
+      width: 100%;
+  }
+}
+
+//MERCH
+
+@media (max-width: 767px) {
+
+  .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .card {
+      width: 90%;
+      margin: 10px;
+  }
+}
+
+//MERCH TRASH DEMOS
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  table {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+
+  .cardsingle {
+    position: relative;
+  }
+
+  .card {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    margin: 10px;
+  }
+}
+
+//CONTACTO
+
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 10px;
+  }
+
+  section {
+    margin-top: 10px;
+  }
+
+  .image-container img {
+    width: 80px;
+  }
+}
+
+//A MISTAKE OR TWO
+
+@media (max-width: 767px) {
+  article, .cards {
+    text-align: center;
+  }
+
+  .cards div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container .iframesound {
+    display: none;
+  }
+}
